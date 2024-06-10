@@ -1,0 +1,291 @@
+body {
+  background-color: var(--S-Background);
+}
+
+main {
+  background-color: var(--S-Background);
+  font-family: "Montserrat", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-style: normal !important;
+}
+
+@media (max-width: 1200px) {
+  #Smartdome {
+    background-image: url('../WebImages/SmartdomeBackground.jpg') !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #Smartdome {
+    height: 30vh !important;
+    background-image: url('../WebImages/SmartdomeBackground-Small.jpg') !important;
+  }
+  
+  #SmartdomeLogo {
+    width: 75% !important;
+  }
+
+  #SmartdomeMotto {
+    font-size: 1rem !important;
+  }
+
+  #SmartdomeDetails {
+    order: 2 !important;
+    font-size:  0.9rem !important;
+  }
+
+  #SmartdomeDetailImage {
+    order: 1 !important; 
+  }
+
+  #SmartdomeDoodle {
+    width: 75vw !important;
+  }
+
+  .FeatureBox {
+    padding-top: 3vh !important;
+    padding-bottom: 3vh !important;
+  }
+
+  .FeatureImage {
+    width: 85% !important;
+  }
+
+  .FeatureImageBoxLeft {
+    order: 1 !important;
+  }
+  
+  .FeatureImageBoxRight {
+    order: 1 !important;
+  }
+
+  .FeatureExplainLeft {
+    text-align: left !important;
+    padding-left: 7.5% !important;
+    padding-right: 7.5% !important;
+    order: 2 !important;
+    padding-top: 4vh !important;
+  }
+
+  .FeatureExplainRight {
+    text-align: left !important;
+    padding-left: 7.5% !important;
+    padding-right: 7.5% !important;
+    order: 2 !important;
+    padding-top: 4vh !important;
+  }
+
+  .FeatureTitle {
+    font-size: 1.5rem !important;
+  }
+
+  .FeatureDetail {
+    font-size: 1rem !important;
+  }
+}
+
+#Smartdome-Introduction {
+  background-color: var(--S-SectionMain);
+}
+
+#Smartdome {
+  color-scheme: only light !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 40vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background-image: url('../WebImages/SmartdomeBackground-Large.jpg');
+  background-size: cover;
+  background-position: bottom;
+}
+
+#Smartdome::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#SmartdomeLogo {
+  color-scheme: only light !important;
+  width: 30%;
+  height: auto;
+  z-index: 10;
+}
+
+#SmartdomeMotto {
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding-top: 1vh;
+  padding-right: 5%;
+  padding-left: 5%;
+  color: #FFFFFF;
+  z-index: 10;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+#SmartdomeDetail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+#SmartdomeDetails {
+  order: 1;
+  color: var(--S-TextMain);
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 3vh 5vw;
+  text-align: justify;
+}
+
+#SmartdomeDetailImage {
+  order: 2;
+  margin: 0;
+  padding: 0;
+}
+
+#SmartdomeDoodle {
+  color-scheme: only light !important;
+  width: 20vw;
+  height: auto;
+}
+
+.Comma {
+  font-weight: 900;
+}
+
+.SectionTitleBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 2.5vh 0;
+}
+
+.SectionTitle {
+  font-weight: 500;
+  font-size: 2.75rem;
+  color: var(--S-TextMain);
+}
+
+.SectionUnderline {
+  padding: 0;
+  margin: 0;
+  width: 7.5%;
+  height: 3px;
+  background-color: var(--S-SectionLine);
+  margin-top: 1vh;
+}
+
+#Features {
+  background-color: var(--S-SectionMain);
+  padding: 3vh 0;
+}
+
+.FeatureBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 7.5vh;
+  padding-bottom: 7.5vh;
+}
+
+.FeatureImage {
+  color-scheme: only light !important;
+  width: 100%;
+  height: auto;
+}
+
+.FeatureImageBoxLeft {
+  margin: 0;
+  padding: 0;
+  order: 1;
+}
+
+.FeatureImageBoxRight {
+  margin: 0;
+  padding: 0;
+  order: 2;
+}
+
+.FeatureExplainLeft {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  padding-left: 7.5%;
+  order: 2;
+}
+
+.FeatureExplainRight {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  padding-right: 7.5%;
+  order: 1;
+}
+
+.FeatureBold {
+  font-weight: 600;
+}
+
+.FeatureTitle {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--S-TextMain);
+}
+
+.FeatureDetail {
+  text-align: justify;
+  padding-top: 2vh;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--S-TextSub);
+}
+
+#Scalability {
+  background-color: var(--S-SectionSub);
+  padding: 3vh 0;
+}
+
+#ScaleBox {
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  text-align: center;
+}
+
+.ScaleSubBox {
+  padding: 3vh 3%;
+}
+
+.ScaleTitle {
+  color: var(--S-TextMain);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.ScaleDetail {
+  color: var(--S-TextSub);
+  font-size: 1rem;
+}

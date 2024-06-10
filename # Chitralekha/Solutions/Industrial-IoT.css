@@ -1,0 +1,213 @@
+body {
+  background-color: var(--S-Background);
+}
+
+main {
+  background-color: var(--S-Background);
+  font-family: "Montserrat", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-style: normal !important;
+}
+
+@media (max-width: 768px) {
+  #IoTBox {
+    padding: 0 !important;
+    padding-bottom: 5vh !important;
+  }
+
+  .IoTExecutiveSummary {
+    text-align: left !important;
+  }
+
+  #IndustrialDisplayHeadline {
+    padding: 0 5vw !important;
+  }
+}
+
+.IoTHeading {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+}
+
+#IoTBox {
+  padding: 0;
+  margin: 0;
+  padding: 5vh 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#IoTImageBox {
+  padding: 0;
+  margin: 0;
+}
+
+#IoTImage {
+  color-scheme: only light !important;
+  width: 100%;
+  height: auto;
+}
+
+#IoTDetails {
+  padding: 0;
+  margin: 0;
+}
+
+#IoTSubHeadline {
+  color: var(--S-TextMain);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+#IoTTitle {
+  color: var(--S-TextMain);
+  font-size: 3rem;
+  font-weight: 500;
+  padding-top: 5vh;
+}
+
+#IoTMotto {
+  color: var(--S-TextMain);
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding-top: 1vh;
+}
+
+.SectionUnderline {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 7.5%;
+  height: 3px;
+  background-color: var(--S-SectionLine);
+  margin: 2vh 0;
+}
+
+#IndustrialBox {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.IndustrialProduct {
+  padding: 0;
+  margin: 0;
+}
+
+.IndustrialImage {
+  color-scheme: only light !important;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+}
+
+.IndustrialSubHeading {
+  color: var(--S-TextMain);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+#IndustrialDisplayBox {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#IndustrialImageBox {
+  padding: 0;
+  margin: 0;
+}
+
+#IndustrialDisplay {
+  color-scheme: only light !important;
+  width: 100%;
+  height: auto;
+}
+
+#IndustrialDisplayHeadline {
+  padding: 0;
+  margin: 0;
+  color: var(--S-TextMain);
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+#ContactSales {
+  margin-top: 5vh;
+  background-color: var(--S-SectionSub);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5vh 5vw;
+}
+
+#SalesTitle {
+  color: var(--S-TextSub);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.SalesTitleSub {
+  color: var(--S-TextSub);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+
+#SalesForm {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.SalesBox {
+  padding: 0;
+  padding-top: 1vh;
+}
+
+#SalesEmail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#SalesButton {
+  padding-left: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.IoTSummary {
+  background-color: var(--S-SectionSub);
+  margin: 0;
+  padding: 0;
+  padding: 5vh 10vw;
+}
+
+.IoTSummaryHeadings {
+  text-align: left;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--S-TextMain);
+  line-height: 1.2;
+  padding-top: 2vh;
+}
+
+.IoTExecutiveSummary {
+  text-align: justify;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--S-TextSub);
+  line-height: 1.2;
+}

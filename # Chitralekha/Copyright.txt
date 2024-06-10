@@ -1,0 +1,25 @@
+/*- ---------------------------------------------------------------------------------------------------- -*/
+/*- HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH -*/
+/*
+    कॉपीराइट © २०२४  अलकक्षेन्द्र  सिंह, सुआवय टेक्नोलॉजीज प्राइवेट लिमिटेड
+
+    यह सॉफ़्टवेयर पूर्णतः गोपनीय है । यह सॉफ्टवेयर अलकक्षेन्द्र  सिंह और सुआवय टेक्नोलॉजीज प्राइवेट लिमिटेड का स्वामित्व और
+    नियंत्रण है । इस सॉफ़्टवेयर का उपयोग मालिकों द्वारा लिखित अनुमति प्राप्त करने के बाद ही किया जाएगा। इस सॉफ़्टवेयर का
+    कोई भी अनधिकृत उपयोग कानूनी परिणामों को आकर्षित करेगा।
+
+
+    Copyright © 2024 Alakshendra Singh, Suavy Technologies Private Limited
+
+    This software is strictly confidential. This software is own and controlled by Alakshendra Singh &
+    Suavy Technologies Private Limited. This software will be used only after getting a written
+    permission by the owners. Any unauthorized use of this software will attract the legal consequences.
+
+    Software Nameplate
+    Software Name           : Chitralekha
+    Software Number         : Suavy/Chitralekha
+    Software Version        : Version 1.0:4
+    Software Description    : The software is the source code for Official Suavy Technologies Website.
+    Software Created By     : Alakshendra Singh.
+*/
+/*- HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH -*/
+/*- ---------------------------------------------------------------------------------------------------- -*/

@@ -1,0 +1,140 @@
+body {
+  background-color: var(--S-Background);
+}
+
+main {
+  background-color: var(--S-Background);
+  font-family: "Montserrat", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-style: normal !important;
+}
+
+@media (max-width: 768px) {
+  #SmartGridTitle {
+    font-size: 1.75rem !important;
+    padding-top: 3vh !important;
+  }
+
+  #SmartGridMotto {
+    font-size: 0.9rem !important;
+    padding-top: 1vh !important;
+  }
+
+  #SmartGridBox {
+    padding: 0 !important;
+    padding-bottom: 2.5vh !important;
+  }
+}
+
+#Smart-Grid-Title {
+  background-color: var(--S-SectionMain);
+}
+
+#SmartGridBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  padding: 2.5vh 0;
+}
+
+#SmartGridDoodleBox {
+  padding: 0;
+  margin: 0;
+}
+
+#SmartGridDoodle {
+  color-scheme: only light !important;
+  width: 100%;
+  height: auto;
+}
+
+#SmartGridHeadline {
+  padding: 0;
+  margin: 0;
+}
+
+#SmartGridTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--S-TextMain);
+}
+
+#SmartGridMotto {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--S-TextSub);
+}
+
+#Smart-Grid-Summary {
+  background-color: var(--S-SectionSub);
+}
+
+.SmartGridSummary {
+  background-color: var(--S-SectionSub);
+  margin: 0;
+  padding: 0;
+  padding: 5vh 10vw;
+}
+
+.SmartGridExecutiveSummary {
+  text-align: justify;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--S-TextMain);
+  line-height: 1.2;
+}
+
+#Smart-Grid-Products {
+  background-color: var(--S-SectionMain);
+}
+
+#SmartGridModuleInfo {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5vh 0;
+}
+
+#SmartGridModuleTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--S-TextMain);
+}
+
+#Smart-Grid-Details {
+  background-color: var(--S-SectionLine);
+}
+
+.SectionUnderline {
+  padding: 0;
+  margin: 0;
+  width: 7.5%;
+  height: 3px;
+  background-color: var(--S-SectionLine);
+  margin-top: 1vh;
+}
+
+.SmartGridModuleCollection {
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.SmartGridModuleBox {
+  margin: 2vh 0;
+}
+
+.SmartGridModule {
+  color-scheme: only light !important;
+  width: 75%;
+  height: auto;
+}
