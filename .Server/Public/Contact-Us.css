@@ -1,0 +1,172 @@
+body {
+  background-color: var(--S-Background);
+}
+
+main {
+  background-color: var(--S-Background);
+}
+
+@media (max-width: 768px) {
+  .ContactIconsBox {
+    width: 10% !important;
+  }
+
+  .ContactDetail {
+    padding-left: 2% !important;
+  }
+
+  .ContactIcons {
+    height: 4vh !important;
+  }
+
+  #ContactForm {
+    margin-top: 10vh !important;
+  }
+
+  .ContactFormItem {
+    width: 75% !important;
+  }
+
+  #SubscribeEmail {
+    width: 75% !important;
+  }
+
+  #SubscribeButton {
+    padding-left: 0% !important;
+  }
+}
+
+.CenterAll {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#Title {
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 3rem;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+  color: var(--S-TextMain);
+}
+
+#Contact {
+  margin: 0;
+  padding: 0;
+}
+
+.DetailRow {
+  width: 100%;
+  margin-top: 3vh;
+}
+
+.ContactIconsBox {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  width: 8%;
+}
+
+.ContactIcons {
+  color-scheme: only light !important;
+  width: auto;
+  height: 5vh;
+}
+
+.ContactDetail {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  padding-left: 1%;
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  color: var(--S-TextSub);
+}
+
+#FormContact {
+  color-scheme: only light !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#ContactForm {
+  color-scheme: only light !important;
+  justify-content: left;
+  align-items: normal;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.FormNecessary {
+  color: #FF0000;
+}
+
+.ContactFormLabel {
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding-top: 2vh;
+  padding-bottom: 1vh;
+  color: var(--S-TextSub);
+}
+
+#FormSend {
+  padding-top: 2vh;
+}
+
+#ContactNewsletter {
+  margin-top: 10vh;
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: var(--S-SectionSub);
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+#Subscribe {
+  color: var(--S-TextSub);
+  font-size: 1.25rem;
+}
+
+#SubscribeSub {
+  color: var(--S-TextSub);
+  font-size: 0.75rem;
+  padding-bottom: 1vh;
+}
+
+#NewsletterForm {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.Subscribe {
+  padding: 0;
+  padding-top: 1vh;
+}
+
+#SubscribeEmail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#SubscribeButton {
+  padding-left: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

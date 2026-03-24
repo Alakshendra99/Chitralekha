@@ -1,0 +1,25 @@
+{
+  "name": "chitralekha",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Alakshendra99/Chitralekha#readme",
+  "bugs": {
+    "url": "https://github.com/Alakshendra99/Chitralekha/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alakshendra99/Chitralekha.git"
+  },
+  "license": "ISC",
+  "author": "Alakshendra Singh",
+  "type": "module",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^5.0.1",
+    "express": "^5.2.1",
+    "http-proxy-middleware": "^3.0.5"
+  }
+}

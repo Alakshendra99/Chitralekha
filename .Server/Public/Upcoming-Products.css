@@ -1,0 +1,145 @@
+body {
+  background-color: var(--S-Background);
+}
+
+main {
+  background-color: var(--S-Background);
+  font-family: "Montserrat", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-style: normal !important;
+}
+
+@media (max-width: 768px) {
+  #UpcomingDoodle {
+    width: 80vw !important;
+  }
+
+  #UpcomingDetails {
+    padding: 5vh 5vw !important;
+  }
+
+  #UpcomingTitle {
+    padding-top: 3vh !important;
+    font-size: 2rem !important;
+  }
+
+  #UpcomingMotto {
+    padding-top: 1vh !important;
+    font-size: 0.9rem !important;
+  }
+}
+
+#Upcoming-Products {
+  background-color: var(--S-SectionMain);
+}
+
+#UpcomingBox {
+  padding: 0;
+  margin: 0;
+  padding: 5vh 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#UpcomingDoodle {
+  color-scheme: only light !important;
+  width: 25vw;
+  height: auto;
+}
+
+#UpcomingImage {
+  margin: 0;
+  padding: 0;
+}
+
+#UpcomingDetails {
+  padding: 0;
+  margin: 0;
+  padding: 5vh 0;
+}
+
+#UpcomingInnovation {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--S-TextSub);
+}
+
+#UpcomingTitle {
+  padding-top: 5vh;
+  font-size: 3rem;
+  font-weight: 500;
+  color: var(--S-TextMain);
+}
+
+#UpcomingMotto {
+  padding-top: 3vh;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--S-TextSub);
+}
+
+.SectionUnderline {
+  padding: 0;
+  margin: 0;
+  width: 7.5%;
+  height: 3px;
+  background-color: var(--S-SectionLine);
+  margin-top: 1vh;
+}
+
+#Upcoming-Products-Details {
+  background-color: var(--S-SectionMain);
+}
+
+.UpcomingProduct {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 7.5vh;
+}
+
+.ProductCollection {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  text-align: center;
+}
+
+.ProductBox {
+  padding: 0;
+  margin: 0;
+  padding: 2vh 5vw;
+}
+
+.ProductTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--S-TextMain);
+  height: 15vh;
+  line-height: 1.1;
+}
+
+.ProductImageBox {
+  margin: 0;
+  padding: 0;
+}
+
+.ProductImage {
+  color-scheme: only light !important;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+.ProductDetail {
+  text-align: justify;
+  padding-top: 3vh;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--S-TextSub);
+}

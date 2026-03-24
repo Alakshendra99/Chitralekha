@@ -1,0 +1,201 @@
+body {
+  background-color: var(--S-Background);
+}
+
+main {
+  background-color: var(--S-Background);
+  font-family: "Montserrat", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-style: normal !important;
+}
+
+@media (max-width: 768px) {
+  #EVBox {
+    padding: 0 !important;
+    padding-bottom: 5vh !important;
+  }
+}
+
+#Automotive-Introduction {
+  background-color: var(--S-SectionMain);
+}
+
+#EVHeading {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+}
+
+#EVBox {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  padding: 5vh 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#EVImageBox {
+  padding: 0;
+  margin: 0;
+}
+
+#EVImage {
+  color-scheme: only light !important;
+  width: 100%;
+  height: auto;
+}
+
+#EVDetails {
+  padding: 0;
+  margin: 0;
+}
+
+#EVSubHeadline {
+  color: var(--S-TextMain);
+  padding-top: 2vh;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+#EVTitle {
+  color: var(--S-TextMain);
+  font-size: 3rem;
+  font-weight: 500;
+  padding-top: 5vh;
+}
+
+#EVMotto {
+  color: var(--S-TextMain);
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding-top: 1vh;
+}
+
+.SectionUnderline {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 7.5%;
+  height: 3px;
+  background-color: var(--S-SectionLine);
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+}
+
+.AutomotiveSummary {
+  background-color: var(--S-SectionSub);
+  margin: 0;
+  padding: 0;
+  padding: 5vh 10vw;
+}
+
+.AutomotiveExecutiveSummary {
+  text-align: justify;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--S-TextMain);
+  line-height: 1.2;
+}
+
+#Automotive-Products {
+  background-color: var(--S-SectionMain);
+}
+
+#Product {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+#ProductsTitle {
+  color: var(--S-TextMain);
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 3vh 0;
+}
+
+#ProductCollection {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ProductBox {
+  padding: 0;
+  margin: 0;
+}
+
+.ProductImageBox {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding: 5vh 0;
+}
+
+.ProductImage {
+  color-scheme: only light !important;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  height: auto;
+}
+
+#ContactNewsletter {
+  margin-top: 5vh;
+  background-color: var(--S-SectionSub);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5vh 5vw;
+}
+
+#Subscribe {
+  color: var(--S-TextSub);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.SubscribeSub {
+  color: var(--S-TextSub);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+
+#NewsletterForm {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.Subscribe {
+  padding: 0;
+  padding-top: 1vh;
+}
+
+#SubscribeEmail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#SubscribeButton {
+  padding-left: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

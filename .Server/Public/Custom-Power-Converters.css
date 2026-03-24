@@ -1,0 +1,214 @@
+body {
+  background-color: var(--S-Background);
+}
+
+main {
+  background-color: var(--S-Background);
+  font-family: "Montserrat", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-style: normal !important;
+}
+
+@media (max-width: 768px) {
+  #ConverterBox {
+    padding: 0 !important;
+    padding-bottom: 5vh !important;
+  }
+
+  #ConverterTitle {
+    font: 2.5rem !important;
+    padding: 0 5vw !important;
+    padding-top: 5vh !important;
+  }
+
+  .ConverterIconsBox {
+    width: 10% !important;
+  }
+
+  .ConverterDetail {
+    padding-left: 2% !important;
+    width: 60% !important;
+  }
+
+  .ConverterIcons {
+    width: 10vw !important;
+  }
+}
+
+#Custom-Power-Converters {
+  background-color: var(--S-SectionMain);
+}
+
+.ConverterHeading {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+}
+
+#ConverterBox {
+  padding: 0;
+  margin: 0;
+  padding: 5vh 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#ConverterImageBox {
+  padding: 0;
+  margin: 0;
+}
+
+#ConverterImage {
+  color-scheme: only light !important;
+  width: 100%;
+  height: auto;
+}
+
+#ConverterDetails {
+  padding: 0;
+  margin: 0;
+}
+
+#ConverterSubHeadline {
+  color: var(--S-TextMain);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+#ConverterTitle {
+  color: var(--S-TextMain);
+  font-weight: 700;
+  font-size: 3rem;
+  font-weight: 500;
+  padding-top: 5vh;
+}
+
+#ConverterMotto {
+  color: var(--S-TextMain);
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding-top: 1vh;
+}
+
+.SectionUnderline {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 7.5%;
+  height: 3px;
+  background-color: var(--S-SectionLine);
+  margin: 2vh 0;
+}
+
+#Custom-Power-Converters-Features {
+  background-color: var(--S-SectionMain);
+}
+
+.DetailRow {
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.ConverterIconsBox {
+  padding: 0;
+  margin: 0;
+  padding-right: 2vw;
+}
+
+.ConverterIcons {
+  color-scheme: only light !important;
+  padding: 0;
+  margin: 0;
+  width: 3vw;
+  height: auto;
+}
+
+.ConverterDetail {
+  color: var(--S-TextSub);
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 1vh 0;
+}
+
+#Custom-Power-Converters-Details {
+  background-color: var(--S-SectionMain);
+}
+
+.ConvertersCollection {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.ConverterBox {
+  padding: 0;
+  margin: 0;
+  padding: 2vh;
+}
+
+.ConverterImage {
+  color-scheme: only light !important;
+  padding: 0;
+  margin: 0;
+  width: 85%;
+  height: auto;
+}
+
+#Custom-Power-Converters-Contact {
+  background-color: var(--S-SectionSub);
+}
+
+#ContactSales {
+  margin-top: 5vh;
+  background-color: var(--S-SectionSub);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5vh 5vw;
+}
+
+#SalesTitle {
+  color: var(--S-TextSub);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.SalesTitleSub {
+  color: var(--S-TextSub);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+
+#SalesForm {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.SalesBox {
+  padding: 0;
+  padding-top: 1vh;
+}
+
+#SalesEmail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#SalesButton {
+  padding-left: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
