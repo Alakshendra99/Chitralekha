@@ -1,5 +1,5 @@
-import { createProxyMiddleware  } from 'http-proxy-middleware';
 import Express from "express";
+import HTTP from 'http';
 
 const URL = "127.0.0.1";
 const PORT = 4000;
@@ -10,17 +10,38 @@ console.log("\nChitralekha Server\nStarted\n");
 // Server Configuration
 /*- ==================================================================================================== -*/
 const App = Express();
+
 App.set ('views', './Views');
 App.set ( 'view engine', 'ejs' );
 App.set ('trust proxy', true);
+
+App.use('/BIT/EEE', (Request, Response) => {
+  const Options = {
+    hostname: '127.0.0.1',
+    port: 4020,
+    path: Request.originalUrl,
+    method: Request.method,
+    headers: {
+      ...Request.headers,
+      host: '127.0.0.1:4020'
+    }
+  };
+  const ForwardReq = HTTP.request(Options, (ForwardRes) => {
+    Response.writeHead(ForwardRes.statusCode, ForwardRes.headers);
+    ForwardRes.pipe(Response, { end: true });
+  });
+  Request.pipe(ForwardReq, { end: true });
+  ForwardReq.on('error', (Error) => {
+    console.error("Forward Error:", Error.message);
+    if (!Response.headersSent) {
+      Response.status(500).send("Internal Forward Error");
+    }
+  });
+});
+
 App.use ( Express.static('Public') );
 App.use ( Express.json () );
 App.use ( Express.urlencoded ({ extended: true }) );
-App.use ( async function ( Error, Request, Response, next ) {
-  if (Error instanceof SyntaxError && Error.status === 400 && 'body' in Error) {
-    return Response.status(444).json({ MESSAGE : "JSON DATA WRONG FORMAT" });
-  } next (Error);
-});
 App.use ( async function ( Request, Response, next ) {
   Response.setHeader('Connection', 'close');
   next();
@@ -73,13 +94,6 @@ App.get('/404', async function (Request, Response) {
 });
 
 /*- ==================================================================================================== -*/
-
-
-App.use('/', createProxyMiddleware({
-  target: 'http://127.0.0.1:4020',
-  changeOrigin: true,
-  logLevel: 'silent'
-}));
 
 App.use((Request, Response) => {
   Response.status(404).render('404');
